@@ -1,0 +1,344 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #217843;
+  color: #f7fbff;
+}
+a {
+  text-decoration: none;
+  color: #f7fbff;
+}
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 70px;
+}
+.logo a {
+  font-size: 1.5em;
+}
+.logo-icon {
+  font-size: 30px;
+}
+.logo-span {
+  font-size: 1.6em;
+}
+header {
+  background-color: #161616;
+  padding: 20px 10px;
+}
+#chk1{
+  display: none;
+}
+.menu{
+  font-size: 2.4em;
+  display: none;
+}
+.menu i{
+  color: #fff;
+  cursor: pointer;
+}
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  margin-left: 122px;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+li a:hover {
+  color: #2bc405;
+}
+.top-content {
+  text-align: center;
+  text-transform: capitalize;
+  width: 100vw;
+  height: 100vh;
+  font-size: 3em;
+}
+.top-content h1 {
+  margin-top: 200px;
+}
+.h1-span {
+  color: black;
+}
+
+.card-section {
+  background-color: black;
+  padding: 40px 0px 10px 0px;
+}
+.card-section .container {
+  display: block;
+}
+.card-section .container .row {
+  padding: 40px 0 40px 0;
+}
+.green-heading {
+  color: #217843;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: #6bff81;
+  color: black;
+}
+.card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-heading {
+  text-align: center;
+}
+
+.card-img img {
+  width: 250px;
+  padding: 20px 0 40px 0;
+}
+.card-music {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon {
+  font-size: 20px;
+}
+.card-2 {
+  background-color: #c16bff;
+}
+.card-3 {
+  background-color: #ff6d6b;
+}
+
+.playlist-section {
+  padding: 40px 0px 10px 0px;
+}
+.playlist-section .container {
+  display: block;
+}
+.playlist-section .container .row {
+  padding: 40px;
+}
+.black-heading {
+  color: black;
+}
+
+.song {
+  background-color: #fbff77;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  border-radius: 30px;
+}
+.song-2 {
+  background-color: #45fffe;
+}
+.song-3 {
+  background-color: #457eff;
+}
+.song-4 {
+  background-color: #c045ff;
+}
+.song-5 {
+  background-color: #d10001;
+}
+.song-6 {
+  background-color: #0016d1;
+}
+
+.song .pause {
+  font-size: 30px;
+}
+h4 {
+  margin-left: 25px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+
+
+footer {
+  padding: 40px;
+  margin: auto;
+  display: flex;
+  border-top: 2px solid black;
+
+}
+footer .container .row{
+  align-items: baseline;
+}
+
+.footer-links ul {
+  flex-direction: column;
+}
+.footer-links ul li {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: #979fdc;
+}
+.footer-links ul li:first-child {
+  color: black;
+  font-size: 20px;
+}
+.footer-links ul li:hover {
+  border-bottom: 2px solid black;
+  color: #fff;
+}
+
+.social-links ul li {
+  margin: 0px;
+  margin-right: 10px;
+}
+
+.social-links ul li i {
+  background-color: #979fdc;
+  color: #050505;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+@media screen and  (max-width:1108px) {
+   .logo-icon{
+    font-size: 20px;
+   }
+   .logo-span{
+    font-size: 1.2em;
+   }
+   header {
+  padding: 15px 10px;
+}
+li {
+  margin-left: 80px;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+.top-content{
+  font-size: 2.5em;
+}
+h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 250px;
+  height: 380px;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: #6bff81;
+  color: black;
+}
+.card-img img {
+  width: 200px;
+  padding: 10px 0 20px 0;
+}
+.card-2 {
+  background-color: #c16bff;
+}
+.card-3 {
+  background-color: #ff6d6b;
+}
+
+}
+
+
+
+@media  screen and (max-width:830px) {
+
+  nav ul{
+    position: fixed;
+    top: 100px;
+    right: -100%;
+    height: calc(100vh -100px);
+    width: 50%;
+    background-color: #161616;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.5s linear;
+  }
+  nav ul{
+    padding: 20px;
+  }
+  nav ul li{
+    margin-bottom: 20px;
+  }
+  .menu{
+    font-size: 20px;
+    display: block;
+    width: 100px;
+    text-align: center;
+  }
+  #chk1:checked ~ nav ul{
+    right: 0;
+  }
+
+
+}
+@media  screen and (max-width:600px) {
+  nav ul{
+    width: 100%;
+  }
+  
+  .top-content{
+    width: 100vw;
+    height: 80vh;
+  }
+  h1{
+    font-size: 1.2em;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .card {
+  margin-bottom: 20px;
+}
+.playlist-section{
+  padding: 40px 10px 10px 0px;
+}
+.playlist-section .container .row .col{
+  margin-bottom: 20px;
+}
+.playlist-section .container .row{
+  padding: 0px;
+}
+
+}
